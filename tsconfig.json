@@ -3,11 +3,12 @@
     "module": "commonjs",
     "target": "es6",
     "outDir": "dist",
-    "lib": ["es6"],
+    "lib": ["es6", "esnext"],
     "sourceMap": true,
     "rootDir": "src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["node", "fs-extra"]
   },
   "exclude": ["node_modules", ".vscode-test"]
 } 
