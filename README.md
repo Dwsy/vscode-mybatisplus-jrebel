@@ -1,4 +1,8 @@
-![logo](resources/icon.png)
+
+
+<div align="center">
+    <img src="resources/icon.png" alt="logo" />
+</div>
 
 # VSCode MyBatis-Plus 热加载插件
 
