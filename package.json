@@ -7,28 +7,28 @@
     "icon": "resources/icon.png",
     "repository": {
       "type": "git",
-      "url": "https://github.com/Dwsy/vscode-mybatisplus-jrebel-plugin"
+      "url": "https://github.com/Dwsy/vscode-mybatisplus-jrebel"
     },
-    "homepage": "https://github.com/SweetInk/jrebel-mybatisplus",
+    "homepage": "https://github.com/Dwsy/vscode-mybatisplus-jrebel",
     "bugs": {
-      "url": "https://github.com/Dwsy/vscode-mybatisplus-jrebel-plugin/issues"
+      "url": "https://github.com/Dwsy/vscode-mybatisplus-jrebel/issues"
     },
     "engines": {
       "vscode": "^1.79.0"
     },
     "categories": [
-      "Other"
+      "Extension Packs"
     ],
     "keywords": [
       "mybatis",
       "mybatis-plus",
       "热加载",
+      "热重载",
       "jrebel",
       "java"
     ],
     "activationEvents": [
-      "onCommand:vscode-mybatisplus-jrebel.setup",
-      "*"
+      "onCommand:vscode-mybatisplus-jrebel.setup"
     ],
     "main": "./dist/extension.js",
     "contributes": {
