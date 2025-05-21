@@ -1,0 +1,62 @@
+  {
+    "name": "vscode-mybatisplus-jrebel",
+    "displayName": "Vscode Mybatisplus JRebel Plugin",
+    "description": "MyBatis-Plus SQL映射热加载插件，基于JRebel",
+    "version": "1.0.0",
+    "publisher": "Dwsy",
+    "icon": "resources/icon.png",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Dwsy/vscode-mybatisplus-jrebel-plugin"
+    },
+    "homepage": "https://github.com/SweetInk/jrebel-mybatisplus",
+    "bugs": {
+      "url": "https://github.com/Dwsy/vscode-mybatisplus-jrebel-plugin/issues"
+    },
+    "engines": {
+      "vscode": "^1.79.0"
+    },
+    "categories": [
+      "Other"
+    ],
+    "keywords": [
+      "mybatis",
+      "mybatis-plus",
+      "热加载",
+      "jrebel",
+      "java"
+    ],
+    "activationEvents": [
+      "onCommand:vscode-mybatisplus-jrebel.setup",
+      "*"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "vscode-mybatisplus-jrebel.setup",
+          "title": "vscode-mybatisplus-jrebel.setup-config"
+        }
+      ]
+    },
+    "scripts": {
+      "vscode:prepublish": "npm run compile",
+      "compile": "tsc -p ./",
+      "watch": "tsc -watch -p ./",
+      "pretest": "npm run compile",
+      "package": "vsce package",
+      "test": "node ./dist/test/runTest.js",
+      "setup": "npx vsce package && code --install-extension *.vsix"
+    },
+    "dependencies": {
+      "fs-extra": "^11.1.1"
+    },
+    "devDependencies": {
+      "@types/fs-extra": "^11.0.4",
+      "@types/node": "^20.10.0",
+      "@types/vscode": "^1.79.0",
+      "@vscode/vsce": "^2.22.0",
+      "rimraf": "^5.0.5",
+      "typescript": "^5.3.2"
+    }
+  }
