@@ -1,9 +1,7 @@
 
-
 <div align="center">
-    <img src="resources/icon.png" alt="logo" />
+    <img src="resources/icon.png" alt="logo" style="width: 50%;" />
 </div>
-
 # VSCode MyBatis-Plus 热加载插件
 
 > ⚠️ 本插件的 MyBatis-Plus 热加载核心功能基于 [SweetInk/jrebel-mybatisplus](https://github.com/SweetInk/jrebel-mybatisplus) 项目实现，感谢原作者开源贡献！
