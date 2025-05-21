@@ -18,13 +18,13 @@ VSCode MyBatis-Plus 热加载插件，基于JRebel的MyBatis-Plus SQL映射热�
 
 ## 安装方法 📥
 
-1. 从VSCode插件市场搜索并安装 "MyBatis-Plus热加载" 插件
+1. 从VSCode插件市场搜索并安装 "scode-mybatisplus-jrebel" 插件
 2. 通过VSIX文件安装：点击左侧扩展视图 > 更多操作(...) > 从VSIX安装...
 
 ## 使用方法 🛠️
 
 1. 安装插件后，按 `Ctrl+Shift+P`（Windows/Linux）或 `Command+Shift+P`（Mac）打开命令面板
-2. 输入并选择 "MyBatis-Plus: 配置热加载" 命令（命令ID：`vscode-mybatisplus-jrebel.setup`）
+2. 输入并选择 "Mscode-mybatisplus-jrebel.setup-config" 命令（命令ID：`vscode-mybatisplus-jrebel.setup`）
 3. 按照引导页面的指示完成配置
 
 ### 常用命令
